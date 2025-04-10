@@ -1,0 +1,142 @@
+<html lang="en" class="ui-mobile"><head>
+		<title>Bishop Stuart University</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+		<meta charset="utf8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="shortcut icon" href="" type="image/x-icon">
+		<link rel="icon" href="" type="image/x-icon">
+		<script type="text/javascript" src="./scripts/jquery.js"></script>
+		<script type="text/javascript" src="./scripts/jquery.mobile.min.js"></script>
+		<script type="text/javascript" src="./scripts/bert.min.js"></script>
+		<script src="./scripts/livevalidation.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./scripts/nitrogen.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./scripts/nitrogen_jqm.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="./styles/nitrogen.css" charset="utf-8">
+		<link rel="stylesheet" href="./styles/jquery.mobile.min.css">
+		<link rel="stylesheet" href="./styles/zeepay.css">				
+	<style>
+            .toast {
+                display: flex !important; /* Change to flex and add !important */
+                all: initial;
+                flex-direction: row !important;
+                align-items: center !important; /* Center vertically and add !important */
+                background: rgba(255, 255, 255, 0.1);
+                color: #fff;
+                padding: 20px 30px;
+                margin-bottom: 15px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                backdrop-filter: blur(10px);
+                opacity: 0;
+
+                max-width: 500px; /* Set a max-width */
+                transition: opacity 0.5s ease-in-out;
+                font-size: 18px;
+                position: relative; /* For gradient overlay */
+
+                font-family: 'Open Sans', sans-serif; /* Apply Open Sans font */
+            }
+            .toast.show {
+                opacity: 1;
+            }
+            .toast.info::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(45deg, #020024, #090979, #00d4ff);
+                opacity: 0.6; /* Adjust opacity for glassmorphic effect */
+                border-radius: 10px;
+                z-index: -1; /* Place behind the content */
+            }
+            .toast.error {
+                background: rgba(244, 67, 54, 0.8) !important; /* Red glassmorphic background with transparency */
+                backdrop-filter: blur(10px) !important; /* Add blur effect for glassmorphic effect */
+            }
+            .toast.success {
+                background: rgba(76, 175, 80, 0.8) !important;
+            }
+            .toast.warning {
+                background: rgba(255, 152, 0, 0.8) !important;
+            }
+            .toast.info {
+                background: rgba(255, 255, 255, 0.1) !important;
+            }
+            .toast.default {
+                background: rgba(51, 51, 51, 0.8) !important;
+            }
+            .lds-ripple,
+            .lds-ripple div {
+                box-sizing: border-box;
+            }
+            .lds-ripple {
+                display: inline-block;
+                position: relative;
+                width: 40px;
+                height: 40px;
+                margin-left: 10px; /* Adjust margin to the left */
+                margin-right: -10px; /* Remove right margin */
+            }
+            .lds-ripple div {
+                position: absolute;
+                border: 4px solid #fff;
+                opacity: 1;
+                border-radius: 50%;
+                animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+            }
+            .lds-ripple div:nth-child(2) {
+                animation-delay: -0.5s;
+            }
+            @keyframes lds-ripple {
+                0% {
+                    top: 18px;
+                    left: 18px;
+                    width: 4px;
+                    height: 4px;
+                    opacity: 0;
+                }
+                4.9% {
+                    top: 18px;
+                    left: 18px;
+                    width: 4px;
+                    height: 4px;
+                    opacity: 0;
+                }
+                5% {
+                    top: 18px;
+                    left: 18px;
+                    width: 4px;
+                    height: 4px;
+                    opacity: 1;
+                }
+                100% {
+                    top: 0;
+                    left: 0;
+                    width: 40px;
+                    height: 40px;
+                    opacity: 0;
+                }
+            }
+        </style></head>
+	<body class="ui-mobile-viewport ui-overlay-a">
+		<div data-role="page" id="pagediv" data-code="Nitrogen.$set_param('pageContext', 'l2akxuvra3NYbhj9rXqG6ieKHi6YYQkrT2dLKt2ZdYjZQRuGZVzyrd0q6txLzg7pQEYlvpCmwzYKZY8cpCP_K2gIwtXlEqXIcl2TihyoX43lu41aDkQWoJJAu3utY0SjJ9LGWbvKI0tVcarpYitDj-_2hQa384DXxFG1egVXECQNbY6dRTiXMhJTi3fZZe9U3xCkK4eEqa3L6wFAk0HBCTsj0PZWPcqdqGxpbdLbzathsOUv_XUykfe-C7m6x7Nk4F9p_NivOvHnkj30MuXoDBT2DzV5gFQEEMNENVQq6QQJsEJ6uHFDuz9of2c9IxkjV430_bQ9sNkjcc0yQOdehpH-e7TIIbtF6Eal2fsDybVuexdqlN1p6AKhuU0r04R_t9Jpz8UHjJsJ2b5iom2oz8Ef3ebN-gkXiOWpQkxX-n354zvvwdTpnTkT7PGpDQV-1MDDOlLMhBZplQV54Zf04HvpRvQ');
+" data-url="pagediv" tabindex="0" class="ui-page ui-page-theme-a ui-page-active">
+			<div data-role="header" role="banner" class="ui-header ui-bar-inherit"> 				
+				<h1 class="ui-title" role="heading" aria-level="1">Bishop Stuart University</h1> 
+			</div> 
+
+			<div data-role="content" class="ui-content" role="main">
+				<img class="wfid_temp73109922 image" style="width:300px;height:300px;" src="./images/get_photo.yaws"><br class="wfid_temp73109954 br"><div class="ui-btn ui-input-btn ui-corner-all ui-shadow">AINAMANI OSBERT<input type="button" value="AINAMANI OSBERT" class="bluebut wfid_temp73109986 button" style="-moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;-webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;box-shadow:inset 0px 1px 0px 0px #54a3f7;background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));background:-moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);background:-webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);background:-o-linear-gradient(top, #007dc1 5%, #0061a7 100%);background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);background-color:#007dc1;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;border:1px solid #124d77;display:inline-block;cursor:pointer;color:#ffffff;font-family:arial;font-size:13px;padding:6px 24px;text-decoration:none;text-shadow:0px 1px 0px #154682;"></div><div class="wfid_temp73110018 ui-grid-a wfid_temp73110050"><div class="key ui-block-a wfid_temp73110082 wfid_temp73110114">STD NO.</div><div class="value ui-block-b wfid_temp73110146 wfid_temp73110178">2401802181</div><div class="key ui-block-a wfid_temp73110210 wfid_temp73110242">REG NO.</div><div class="value ui-block-b wfid_temp73110274 wfid_temp73110306">24/BSU/BSAF/2181</div><div class="key ui-block-a wfid_temp73110338 wfid_temp73110370">NAME.</div><div class="value ui-block-b wfid_temp73110402 wfid_temp73110434">AINAMANI OSBERT</div><div class="key ui-block-a wfid_temp73110466 wfid_temp73110498">SEX.</div><div class="value ui-block-b wfid_temp73110530 wfid_temp73110562">M</div><div class="key ui-block-a wfid_temp73110594 wfid_temp73110626">ACC YR.</div><div class="value ui-block-b wfid_temp73110658 wfid_temp73110690">2024/2025</div><div class="key ui-block-a wfid_temp73110722 wfid_temp73110754">STUDY YR.</div><div class="value ui-block-b wfid_temp73110786 wfid_temp73110818">1</div><div class="key ui-block-a wfid_temp73110850 wfid_temp73110882">SEM</div><div class="value ui-block-b wfid_temp73110914 wfid_temp73110946">2</div><div class="key ui-block-a wfid_temp73110978 wfid_temp73111010">PROV.</div><div class="value ui-block-b wfid_temp73111042 wfid_temp73111074">false</div><div class="key ui-block-a wfid_temp73111106 wfid_temp73111138">PROV EXP.</div><div class="value ui-block-b wfid_temp73111170 wfid_temp73111202">null</div><div class="key ui-block-a wfid_temp73111234 wfid_temp73111266">REG BY.</div><div class="value ui-block-b wfid_temp73111298 wfid_temp73111330">SELF</div><div class="key ui-block-a wfid_temp73111362 wfid_temp73111394">A/C BAL.</div><div class="value ui-block-b wfid_temp73111426 wfid_temp73111458">UGX. 0</div></div><div class="ui-btn ui-input-btn ui-corner-all ui-shadow">COURSE UNITS<input type="button" value="COURSE UNITS" class="bluebut wfid_temp73111490 button" style="-moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;-webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;box-shadow:inset 0px 1px 0px 0px #54a3f7;background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));background:-moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);background:-webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);background:-o-linear-gradient(top, #007dc1 5%, #0061a7 100%);background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);background-color:#007dc1;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;border:1px solid #124d77;display:inline-block;cursor:pointer;color:#ffffff;font-family:arial;font-size:13px;padding:6px 24px;text-decoration:none;text-shadow:0px 1px 0px #154682;"></div><div class="wfid_temp73111522 ui-grid-a wfid_temp73111554"><div class="key ui-block-a wfid_temp73111586 wfid_temp73111618">(BSAF1202) QUANTITATIVE TECHNIQUES</div><div class="value ui-block-b wfid_temp73111650 wfid_temp73111682">normal</div><div class="key ui-block-a wfid_temp73111714 wfid_temp73111746">(BSAF1203) MANAGERIAL ECONOMICS</div><div class="value ui-block-b wfid_temp73111778 wfid_temp73111810">normal</div><div class="key ui-block-a wfid_temp73111842 wfid_temp73111874">(UEH1201) UNDERSTANDING THE BIBLE</div><div class="value ui-block-b wfid_temp73111906 wfid_temp73111938">normal</div><div class="key ui-block-a wfid_temp73111970 wfid_temp73112002">(BSAF1201) FUNDAMENTALS OF ACCOUNTING II</div><div class="value ui-block-b wfid_temp73112034 wfid_temp73112066">normal</div><div class="key ui-block-a wfid_temp73112098 wfid_temp73112130">(BSAF1205) PRINCIPLES OF PROCUREMENT MANAGEMENT.</div><div class="value ui-block-b wfid_temp73112162 wfid_temp73112194">normal</div><div class="key ui-block-a wfid_temp73112226 wfid_temp73112258">(BSAF1204) BUSINESS LAW</div><div class="value ui-block-b wfid_temp73112290 wfid_temp73112322">normal</div><div class="key ui-block-a wfid_temp73112354 wfid_temp73112386">(BSAF1206) INFORMATION &amp; COMMUNICATION TECHNOLOGY 11</div><div class="value ui-block-b wfid_temp73112418 wfid_temp73112450">normal</div></div><div class="wfid_temp73112482 wfid_temp73112514 ui-collapsible-set ui-group-theme-b ui-corner-all" data-role="collapsible-set" data-mini="false" data-theme="b" data-content-theme="a"><div class="wfid_temp73112546 wfid_temp73112578 ui-collapsible ui-collapsible-inset ui-corner-all ui-collapsible-themed-content ui-first-child ui-last-child" data-role="collapsible" data-mini="false" data-theme="e" data-content-theme="e" data-collapsed="true"><h3 class="wfid_temp73112610 h3 ui-collapsible-heading"><a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-btn-e ui-icon-minus">Student Details<span class="ui-collapsible-heading-status"> click to collapse contents</span></a></h3><div class="ui-collapsible-content ui-body-e" aria-hidden="false"><p class="wfid_temp73112642 p"></p><li class="wfid_temp73112674 wfid_temp73112706 listitem">BSAF - BACHELOR OF SCIENCE IN ACCOUNTING AND FINANCE</li><li class="wfid_temp73112738 wfid_temp73112770 listitem">BDS - FACULTY OF BUSINESS ECONOMICS AND GOVERNANCE</li><li class="wfid_temp73112802 wfid_temp73112834 listitem">BISHOP - BISHOP</li><li class="wfid_temp73112866 wfid_temp73112898 listitem">Campus: BSU</li><li class="wfid_temp73112930 wfid_temp73112962 listitem">Registered On: MON 13-JAN-2025 03:15 PM</li><p></p></div></div></div>
+			</div>
+
+			<div data-role="footer" role="contentinfo" class="ui-footer ui-bar-inherit"> 
+				<h4 class="ui-title" role="heading" aria-level="1"> 
+					© Zeenode Ltd
+				</h4> 
+			</div>
+		</div>
+	
+
+<div class="ui-loader ui-corner-all ui-body-a ui-loader-default"><span class="ui-icon-loading"></span><h1>loading</h1></div><div id="toast-container" style="color-scheme: initial; forced-color-adjust: initial; mask: initial; math-depth: initial; position: fixed; position-anchor: initial; text-size-adjust: initial; appearance: initial; color: initial; font: initial; font-palette: initial; font-synthesis: initial; position-area: initial; text-orientation: initial; text-rendering: initial; text-spacing-trim: initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-text-orientation: initial; -webkit-writing-mode: initial; writing-mode: initial; zoom: initial; accent-color: initial; place-content: initial; align-items: flex-end; place-self: initial; alignment-baseline: initial; anchor-name: initial; anchor-scope: initial; animation-composition: initial; animation: initial; app-region: initial; aspect-ratio: initial; backdrop-filter: initial; backface-visibility: initial; background: initial; background-blend-mode: initial; baseline-shift: initial; baseline-source: initial; block-size: initial; border-block: initial; border: initial; border-radius: initial; border-collapse: initial; border-end-end-radius: initial; border-end-start-radius: initial; border-inline: initial; border-start-end-radius: initial; border-start-start-radius: initial; bottom: initial; box-decoration-break: initial; box-shadow: initial; box-sizing: initial; break-after: initial; break-before: initial; break-inside: initial; buffered-rendering: initial; caption-side: initial; caret-color: initial; clear: initial; clip: initial; clip-path: initial; clip-rule: initial; color-interpolation: initial; color-interpolation-filters: initial; color-rendering: initial; columns: initial; column-fill: initial; gap: initial; column-rule: initial; column-span: initial; contain: initial; contain-intrinsic-block-size: initial; contain-intrinsic-size: initial; contain-intrinsic-inline-size: initial; container: initial; content: initial; content-visibility: initial; counter-increment: initial; counter-reset: initial; counter-set: initial; cursor: initial; cx: initial; cy: initial; d: initial; display: flex; dominant-baseline: initial; empty-cells: initial; field-sizing: initial; fill: initial; fill-opacity: initial; fill-rule: initial; filter: initial; flex: initial; flex-direction: column; flex-wrap: initial; float: initial; flood-color: initial; flood-opacity: initial; grid: initial; grid-area: initial; height: initial; hyphenate-character: initial; hyphenate-limit-chars: initial; hyphens: initial; image-orientation: initial; image-rendering: initial; initial-letter: initial; inline-size: initial; inset-block: initial; inset-inline: initial; interactivity: initial; interpolate-size: initial; isolation: initial; justify-items: initial; left: initial; letter-spacing: initial; lighting-color: initial; line-break: initial; list-style: initial; margin-block: initial; margin: initial; margin-inline: initial; marker: initial; mask-type: initial; math-shift: initial; math-style: initial; max-block-size: initial; max-height: initial; max-inline-size: initial; max-width: initial; min-block-size: initial; min-height: initial; min-inline-size: initial; min-width: initial; mix-blend-mode: initial; object-fit: initial; object-position: initial; object-view-box: initial; offset: initial; opacity: initial; order: initial; orphans: initial; outline: initial; outline-offset: initial; overflow-anchor: initial; overflow-block: initial; overflow-clip-margin: initial; overflow-inline: initial; overflow-wrap: initial; overflow: initial; overlay: initial; overscroll-behavior-block: initial; overscroll-behavior-inline: initial; overscroll-behavior: initial; padding-block: initial; padding: initial; padding-inline: initial; page: initial; page-orientation: initial; paint-order: initial; perspective: initial; perspective-origin: initial; pointer-events: initial; position-try: initial; position-visibility: initial; quotes: initial; r: initial; resize: initial; right: 20px; rotate: initial; ruby-align: initial; ruby-position: initial; rx: initial; ry: initial; scale: initial; scroll-behavior: initial; scroll-initial-target: initial; scroll-margin-block: initial; scroll-margin: initial; scroll-margin-inline: initial; scroll-marker-group: initial; scroll-padding-block: initial; scroll-padding: initial; scroll-padding-inline: initial; scroll-snap-align: initial; scroll-snap-stop: initial; scroll-snap-type: initial; scroll-timeline: initial; scrollbar-color: initial; scrollbar-gutter: initial; scrollbar-width: initial; shape-image-threshold: initial; shape-margin: initial; shape-outside: initial; shape-rendering: initial; size: initial; speak: initial; stop-color: initial; stop-opacity: initial; stroke: initial; stroke-dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; stroke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial; stroke-width: initial; tab-size: initial; table-layout: initial; text-align: initial; text-align-last: initial; text-anchor: initial; text-box: initial; text-combine-upright: initial; text-decoration: initial; text-decoration-skip-ink: initial; text-emphasis: initial; text-emphasis-position: initial; text-indent: initial; text-overflow: initial; text-shadow: initial; text-transform: initial; text-underline-offset: initial; text-underline-position: initial; text-wrap: initial; timeline-scope: initial; top: 20px; touch-action: initial; transform: initial; transform-box: initial; transform-origin: initial; transform-style: initial; transition: initial; translate: initial; user-select: initial; vector-effect: initial; vertical-align: initial; view-timeline: initial; view-transition-class: initial; view-transition-name: initial; visibility: initial; border-spacing: initial; -webkit-box-align: initial; -webkit-box-decoration-break: initial; -webkit-box-direction: initial; -webkit-box-flex: initial; -webkit-box-ordinal-group: initial; -webkit-box-orient: initial; -webkit-box-pack: initial; -webkit-box-reflect: initial; -webkit-line-break: initial; -webkit-line-clamp: initial; -webkit-mask-box-image: initial; -webkit-print-color-adjust: initial; -webkit-rtl-ordering: initial; -webkit-ruby-position: initial; -webkit-tap-highlight-color: initial; -webkit-text-combine: initial; -webkit-text-decorations-in-effect: initial; -webkit-text-fill-color: initial; -webkit-text-security: initial; -webkit-text-stroke: initial; -webkit-user-drag: initial; white-space-collapse: initial; widows: initial; width: initial; will-change: initial; word-break: initial; word-spacing: initial; x: initial; y: initial; z-index: 9999;"></div></body></html>
